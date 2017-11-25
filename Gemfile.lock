@@ -41,10 +41,15 @@ GEM
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (8.0.0)
+    autoprefixer-rails (7.1.6)
+      execjs
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     browserify-rails (4.2.0)
       addressable (>= 2.4.0)
       railties (>= 4.0.0, < 5.2)
@@ -194,6 +199,7 @@ PLATFORMS
 
 DEPENDENCIES
   babel-transpiler
+  bootstrap-sass (~> 3.3.7)
   browserify-rails
   capybara
   coffee-rails
@@ -202,7 +208,7 @@ DEPENDENCIES
   rails (>= 5.1)
   react-rails
   rspec-rails (~> 3.5)
-  sass-rails
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   selenium-webdriver
   spring
@@ -214,4 +220,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.1
+   1.16.0
