@@ -5,10 +5,20 @@ class Homepage extends Component {
   render() {
     const { details, incrementIfOdd, incrementAsync, decrement, counter } = this.props;
     return (
-      <p>
-         {details} 
-         <SideBar />
-      </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3  box">
+           {details}
+           <SideBar />
+          </div>
+
+          <div className="col-md-9 box">
+             content
+          </div>
+
+        </div>
+      </div>
+
     );
   }
 }

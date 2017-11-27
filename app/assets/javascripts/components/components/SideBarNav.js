@@ -1,3 +1,5 @@
+
+
 import React, { Component, PropTypes } from 'react';
 
 
@@ -9,7 +11,7 @@ class SideBarNav extends Component {
     return (
       <div>
         <div>
-        okokio
+            side bar
         </div>
       </div>
 
