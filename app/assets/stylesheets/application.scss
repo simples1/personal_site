@@ -3,7 +3,8 @@
 @import "bootstrap";
 
 body{
-  height: 100vh
+  height: 100vh;
+  font-family: "europa", sans-serif;
 }
 
 .full-height{
@@ -30,4 +31,12 @@ body{
   background-image: url('/assets/me.jpeg');
   background-repeat: no-repeat;
   background-size: 150px 150px;
+}
+.intro{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  color: #aaaaaa;
 }
