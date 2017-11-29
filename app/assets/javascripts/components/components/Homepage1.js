@@ -7,12 +7,12 @@ class Homepage extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-3  box">
-            IMAGE
+          <div className="col-md-3 side_bar_wrapper full-height box">
+
            <SideBar />
           </div>
 
-          <div className="col-md-9 box">
+          <div className="col-md-9 side_bar_wrapper box">
              content
           </div>
 

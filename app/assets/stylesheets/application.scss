@@ -2,7 +2,32 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body{
+  height: 100vh
+}
+
+.full-height{
+  height: 100vh;
+}
 
 .box{
   border: 1px dotted;
+}
+
+.side_bar_wrapper{
+  padding: 0px;
+
+  .side_bar_container{
+    margin: 0px;
+  }
+}
+
+#image_place{
+  margin:auto;
+  height: 150px;
+  width: 150px;
+  border: 1px dotted;
+  background-image: url('/assets/me.jpeg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
 }

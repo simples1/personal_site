@@ -1,6 +1,6 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Homepage from '../components/Homepage';
+import Homepage from '../components/Homepage1';
 import * as MyActions from '../actions/my_actions';
 
 function mapStateToProps(state) {
