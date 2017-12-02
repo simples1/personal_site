@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import MyApp from './MyApp';
 import configureStore from '../store/configureStore';
 import {setDetails} from '../actions/my_actions'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 
 const store = configureStore();
@@ -15,8 +16,15 @@ export default class Root extends Component {
   render() {
     return (
       <Provider store={store}>
-        <MyApp />
+        <BrowserRouter>
+          <div>
+            <Route exact path='/' component={MyApp} />
+            <Route path='/home' render={() =>  <h1>hello</h1>} />
+          </div>
+        </BrowserRouter>
       </Provider>
+
     );
   }
 }
+
