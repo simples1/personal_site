@@ -11,6 +11,10 @@ body{
   height: 100vh;
 }
 
+.my_main_row{
+  padding-top: 70px;
+}
+
 .box{
   border: 1px dotted;
 }
@@ -19,7 +23,7 @@ body{
   padding: 0px;
 
   .side_bar_container{
-    margin: 0px;
+    margin: 27px;
   }
 }
 

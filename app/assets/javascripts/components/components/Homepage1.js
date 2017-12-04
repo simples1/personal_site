@@ -18,7 +18,7 @@ class Homepage extends Component {
       <BrowserRouter>
 
         <div className="container">
-          <div className="row">
+          <div className="row my_main_row">
             <div className="col-md-3 side_bar_wrapper full-height box">
 
              <SideBar />
