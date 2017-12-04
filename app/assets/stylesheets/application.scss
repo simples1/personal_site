@@ -42,5 +42,12 @@ body{
 }
 
 .active{
-  background: #337ab7;
+  background: #337ab7 !important;;
+  color: white;
+}
+
+.nav-pills > li > a:hover{
+  background: #86bae6 !important;
+  opacity: 0.5;
+
 }
