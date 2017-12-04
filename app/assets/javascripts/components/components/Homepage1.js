@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 import SideBar from "./SideBarNav"
 import Aboutme from "./AboutMe"
+import Blog from "./Blog"
+import Projects from "./Projects"
 
 const Home = (props) => {
   console.log(props.match.params.id)
@@ -24,6 +26,8 @@ class Homepage extends Component {
             <div className="col-md-9 side_bar_wrapper box">
               <Route exact path='/' component={Home} />
               <Route path='/about-me' component={Aboutme} />
+              <Route path='/blog' component={Blog} />
+              <Route path='/projects' component={Projects} />
             </div>
           </div>
         </div>
