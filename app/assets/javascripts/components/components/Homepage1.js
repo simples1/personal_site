@@ -23,9 +23,8 @@ class Homepage extends Component {
 
              <SideBar />
             </div>
-            <div className="col-md-9 side_bar_wrapper box">
-              <Route exact path='/' component={Home} />
-              <Route path='/about-me' component={Aboutme} />
+            <div className="col-md-9 main_wrapper box">
+              <Route exact path='/' component={Aboutme} />
               <Route path='/blog' component={Blog} />
               <Route path='/projects' component={Projects} />
             </div>

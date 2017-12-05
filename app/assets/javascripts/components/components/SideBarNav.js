@@ -13,7 +13,7 @@ class SideBarNav extends Component {
         </div>
         <ul className="nav nav-pills nav-stacked">
           <li role="presentation">
-            <NavLink activeClassName="active" to='/about-me'>About Me</NavLink>
+            <NavLink activeClassName="active"  exact to='/'>About Me</NavLink>
           </li>
           <li role="presentation">
             <NavLink activeClassName="active" to='/blog'>Blog</NavLink>
