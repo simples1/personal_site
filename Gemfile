@@ -17,6 +17,7 @@ gem 'babel-transpiler'
 gem 'react-rails'
 gem 'browserify-rails'
 gem 'devise'
+gem 'activeadmin'
 
 
 group :development, :test do
